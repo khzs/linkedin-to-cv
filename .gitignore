@@ -1,0 +1,4 @@
+.idea/
+.venv/
+uv.lock
+linkedin_auth.json
