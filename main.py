@@ -129,6 +129,9 @@ def process_txt() -> OrderedDict:
     return dic
 
 
+def dict_to_typst(dic: OrderedDict):
+    pass
+
 if __name__ == '__main__':
     # linkedin_to_txt('')
     # linkedin_to_txt('overlay/contact-info/')
@@ -136,3 +139,4 @@ if __name__ == '__main__':
     # linkedin_to_txt('details/experience/')
     data1 = process_txt()
     print(data1)
+    dict_to_typst(data1)
